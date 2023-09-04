@@ -1,0 +1,77 @@
+.customModal{
+    >div>div{
+        border-radius: 25px;
+        @media (min-width:1025px){
+            min-width: 585px !important;
+        }
+        >div{
+            padding: 28px;
+        }
+        >div>div{
+            color: #22223C;
+            font-size: 24px;
+            font-weight: 700; 
+        }
+        >div:nth-child(1)>button{
+            background-color: #F0F0F0;
+            width: 26px;
+            height: 26px;
+            border-radius: 100%;
+            padding: 0;
+            position: relative;
+            opacity: 1;
+        }
+        >div:nth-child(1)>button:after{
+            display: block;
+            content: "";
+            background-image: url(../public/images/close.svg);
+            width: 14px;
+            height: 14px;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        >div:nth-child(3)>button:hover,
+        >div:nth-child(3)>button{
+            border-radius: 10px;
+            background: #389E0D;
+            padding: 10px 45px;
+            border:0px
+        }
+    }
+    
+}
+.nameServices{
+    color: #22223C;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.listCountry {
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    @media(max-width:1024px){
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .itemCountry {
+        display: flex;
+        align-items: center;
+        img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            margin-right: 16px;
+            border-radius: 100%;
+        }
+
+        .itemTitle {
+            font-size: 18px;
+            color: #0C1941;
+            font-weight: 600;
+        }
+    }
+
+}

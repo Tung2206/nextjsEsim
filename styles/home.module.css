@@ -1,0 +1,184 @@
+.homeBanner {
+  background-image: url(../public/background-home.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  min-height: 647px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 90px;
+}
+
+.homeContent {
+  max-width: 806px;
+  margin: 0 auto;
+}
+
+.homeContent h1 {
+  margin-bottom: 20px;
+}
+
+.homeContent form {
+  padding: 8px 16px;
+  border-radius: 12px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+}
+
+.homeContent form input {
+  width: 100%;
+  padding: 12px 16px 12px 15px;
+  outline: none;
+  color: #1F1F1F;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.homeContent form input::-webkit-input-placeholder {
+  color: #389E0D;
+  font-weight: 500;
+}
+
+.homeContent form input:-moz-placeholder {
+  color: #389E0D;
+  font-weight: 500;
+}
+
+.homeContent form svg {
+  width: auto;
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.listPopular {
+  margin-bottom: 80px;
+}
+
+.listPopular h2 {
+  color: #22223C;
+  margin-bottom: 50px;
+}
+
+.listCountries {
+  grid-template-columns: repeat(5, 1fr);
+  display: grid;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+
+.listCountries > a {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 18px 22px;
+}
+
+.itemCountries {
+  display: flex;
+}
+
+.itemCountries img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+
+.itemCountries h3 {
+  font-size: 18px;
+  font-weight: 600;
+  overflow: hidden;
+  -webkit-line-clamp: 1;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.read-more-btn {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.read-more-btn a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.read-more-btn a:hover {
+  background: #fff;
+  color: #222;
+}
+
+.homeBanner form > div {
+  width: 100%;
+}
+
+.homeBanner form > div > div {
+  max-height: 530px;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: absolute;
+  width: 100%;
+  box-shadow: -6px 8px 16px 0px rgba(58, 42, 152, 0.1);
+  background-color: #fff;
+  border-radius: 16px;
+  top: 80px;
+  left: 0;
+  right: 0;
+}
+.homeBanner form > div > div > ul {
+  cursor: pointer;
+  padding: 20px;
+}
+.homeBanner form > div > div > ul > li > div {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+.homeBanner form > div > div > ul > li > div img {
+  border-radius: 100%;
+  max-width: 32px;
+  margin-right: 16px;
+}
+.homeBanner form > div > div::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(24, 24, 24, 0.2);
+  background-color: transparent;
+}
+.homeBanner form > div > div::-webkit-scrollbar {
+  width: 4px;
+  background-color: transparent;
+}
+.homeBanner form > div > div::-webkit-scrollbar-thumb {
+  background-color: #E5E7EC;
+  border-radius: 12px;
+}
+
+@media (max-width: 1200px) {
+  .homeBanner {
+    min-height: 550px;
+  }
+}
+@media (max-width: 1024px) {
+  .listCountries {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 767px) {
+  .listCountries {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .homeBanner {
+    min-height: 380px;
+  }
+  .homeContent h1 {
+    font-size: 18px;
+  }
+}/*# sourceMappingURL=home.module.css.map */
