@@ -14,8 +14,6 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 90px;
-
     .homeContent {
         max-width: 806px;
         margin: 0 auto;
@@ -61,7 +59,12 @@
     }
 }
 
+.section1{
+    margin-top: -100px;
+}
+
 .filterEsim {
+    margin-top: 100px;
     .sliderLabels {
         >span>span>span{
             -webkit-transform: translateY(-100%) scale(1);

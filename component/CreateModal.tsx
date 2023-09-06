@@ -37,7 +37,7 @@ function CreatModal(props: IProps) {
                             <div className={Styles.itemCountry} key={index}>
                                 <img src={country.image_plan_country} alt={country.name_plan_country} />
                                 <h3 className={Styles.itemTitle}>{country.name_plan_country}</h3>
-                            </div>
+                            </div>   
                         ))}
                     </div>
                 </Modal.Body>

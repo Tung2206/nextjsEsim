@@ -14,6 +14,7 @@ const data = [
         "provider": "Ubigi",
         "plan_name": "Eroupe (36 countries)",
         "size": "Unimited",
+        "data_gb": "10GB",
         "validity": "60 DAYS",
         "price_gb": "$2.00",
         "price": "$2.00",
@@ -473,6 +474,7 @@ const data = [
         "plan_name": "Eroupe (36 countries)",
         "size": "Unimited",
         "validity": "30 DAYS",
+        "data_gb": "20GB",
         "price_gb": "$2.00",
         "price": "$2.00"
       }
@@ -489,6 +491,7 @@ const data = [
         "plan_name": "Eroupe (36 countries)",
         "size": "Unimited",
         "validity": "30 DAYS",
+        "data_gb": "10GB",
         "price_gb": "$2.00",
         "price": "$2.00"
       }
@@ -522,6 +525,7 @@ const data = [
         "size": "Unimited",
         "validity": "30 DAYS",
         "price_gb": "$2.00",
+        "data_gb": "20GB",
         "price": "$2.00"
       }
     ]

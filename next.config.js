@@ -14,6 +14,13 @@ const nextConfig = {
             },
         ]
     },
+    images: {
+        domains: [
+            'play-lh.googleusercontent.com',
+            'upload.wikimedia.org',
+            'tulieuvankien.dangcongsan.vn'
+        ],
+    },
 }
 
 module.exports = nextConfig
